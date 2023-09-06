@@ -1,0 +1,38 @@
+# Ignore Node.js build and runtime files
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# Ignore application-specific environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.staging
+.env.production
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+
+# Ignore system or hidden files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and other generated files
+logs/
+*.log
+*.log.*
+*.access
+
+# Ignore dependency directories (you may need to add more)
+vendor/
+
+# Ignore local configuration files
+config/
+
+# Ignore project-specific temporary files and directories
+temp/
+tmp/
